@@ -2,33 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6422728a-2cd4-41d6-b6e8-352af5188560" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/es7-express-practice.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/api/routes/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/config/env.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/api/controllers/auth.controller.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/api/controllers/user.controller.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/api/middlewares/auth.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/api/routes/v1/auth.route.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/api/routes/v1/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/api/routes/v1/user.route.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/api/tests/integration/auth.test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/api/tests/integration/user.test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/api/validations/user.validation.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/config/mongoose.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/config/passport.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/config/vars.js" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.babelrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/wtstowers.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/jest_DefinitelyTyped.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jest.config.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/api/models/choice.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/api/models/question.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/api/utils/mongo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/util/mongo.spec.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/api/models/refreshToken.model.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/api/models/user.model.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/es7-express-practice.iml" afterPath="$PROJECT_DIR$/.idea/es7-express-practice.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/api/middlewares/error.js" afterPath="$PROJECT_DIR$/src/api/middlewares/error.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/api/utils/APIError.js" afterPath="$PROJECT_DIR$/src/api/utils/APIError.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/api/validations/auth.validation.js" afterPath="$PROJECT_DIR$/src/api/validations/auth.validation.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/config/express.js" afterPath="$PROJECT_DIR$/src/config/express.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.js" afterPath="$PROJECT_DIR$/src/index.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -41,32 +29,22 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="APIError.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/api/utils/APIError.js">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="mongo.spec.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/util/mongo.spec.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+            <state relative-caret-position="15">
+              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="auth.validation.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/api/validations/auth.validation.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="22" lean-forward="false" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="26" column="31" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+            <state relative-caret-position="150">
+              <caret line="37" column="29" lean-forward="false" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -78,6 +56,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="json" />
       </list>
     </option>
   </component>
@@ -94,7 +73,13 @@
         <option value="$PROJECT_DIR$/src/config/express.js" />
         <option value="$PROJECT_DIR$/src/api/utils/APIError.js" />
         <option value="$PROJECT_DIR$/src/api/validations/auth.validation.js" />
+        <option value="$PROJECT_DIR$/src/api/models/question.js" />
+        <option value="$PROJECT_DIR$/src/api/models/choice.js" />
+        <option value="$PROJECT_DIR$/src/api/utils/mongo.js" />
+        <option value="$PROJECT_DIR$/.babelrc" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/jest.config.json" />
+        <option value="$PROJECT_DIR$/src/test/util/mongo.spec.js" />
       </list>
     </option>
   </component>
@@ -130,7 +115,7 @@
         </expanded-state>
         <selected-state>
           <State>
-            <id>AngularJS</id>
+            <id>JavaScript</id>
           </State>
         </selected-state>
       </profile-state>
@@ -151,7 +136,35 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scope">
+        <subPane subId="Tests">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="es7-express-practice" type="cbb8eebc:String" user="es7-express-practice" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="es7-express-practice" type="cbb8eebc:String" user="es7-express-practice" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="es7-express-practice" type="cbb8eebc:String" user="es7-express-practice" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="test" type="cbb8eebc:String" user="test" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="es7-express-practice" type="cbb8eebc:String" user="es7-express-practice" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="test" type="cbb8eebc:String" user="test" />
+              <item name="util" type="cbb8eebc:String" user="util" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -171,6 +184,23 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="api" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="es7-express-practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="es7-express-practice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="es7-express-practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="es7-express-practice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="es7-express-practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -178,11 +208,11 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
-    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
+    <property name="nodejs_interpreter_path" value="$USER_HOME$/.nvm/versions/node/v8.5.0/bin/node" />
+    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
-    <property name="javascript.nodejs.core.library.configured.version" value="6.11.3" />
+    <property name="javascript.nodejs.core.library.configured.version" value="8.5.0" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.path.for.package.eslint" value="$USER_HOME$/.nvm/versions/node/v8.5.0/bin/node" />
@@ -192,6 +222,9 @@
     <property name="node.js.path.for.package.standard" value="$USER_HOME$/.nvm/versions/node/v8.5.0/bin/node" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.selected.package.standard" value="$PROJECT_DIR$/node_modules/eslint" />
+    <property name="nodejs.mocha.mocha_node_package_dir" value="$PROJECT_DIR$/node_modules/mocha" />
+    <property name="nodejs.jest.jest_package" value="$USER_HOME$/.nvm/versions/node/v8.5.0/lib/node_modules/jest" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -210,6 +243,46 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="Jest.mongo util test">
+    <configuration name="Es7 Test" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="ALL" />
+    </configuration>
+    <configuration name="mongo util test" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/src/test/util/mongo.spec.js" />
+      <test-names>
+        <test-name value="mongo util test" />
+      </test-names>
+    </configuration>
+    <configuration name="mongo util test.#initMongoose" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/src/test/util/mongo.spec.js" />
+      <test-names>
+        <test-name value="mongo util test" />
+        <test-name value="#initMongoose" />
+      </test-names>
+    </configuration>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="Jest.Es7 Test" />
+      <item index="1" class="java.lang.String" itemvalue="Jest.mongo util test.#initMongoose" />
+      <item index="2" class="java.lang.String" itemvalue="Jest.mongo util test" />
+    </list>
+    <recent_temporary>
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Jest.mongo util test" />
+        <item index="1" class="java.lang.String" itemvalue="Jest.mongo util test.#initMongoose" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
@@ -220,33 +293,66 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1505492570351</updated>
-      <workItem from="1505492571453" duration="2014000" />
+      <workItem from="1505492571453" duration="8765000" />
+      <workItem from="1505505583173" duration="556000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Es7_Test - 2017.09.15 at 15h 42m 08s.xml">
+      <configuration name="Es7 Test" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="Es7_Test - 2017.09.15 at 15h 42m 20s.xml">
+      <configuration name="Es7 Test" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="Es7_Test - 2017.09.15 at 15h 42m 33s.xml">
+      <configuration name="Es7 Test" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="Es7_Test - 2017.09.15 at 15h 52m 08s.xml">
+      <configuration name="Es7 Test" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="mongo_util_test - 2017.09.15 at 15h 55m 01s.xml">
+      <configuration name="mongo util test" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="mongo_util_test - 2017.09.15 at 16h 00m 19s.xml">
+      <configuration name="mongo util test" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="mongo_util_test - 2017.09.15 at 16h 05m 11s.xml">
+      <configuration name="mongo util test" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="mongo_util_test_#initMongoose - 2017.09.15 at 15h 33m 42s.xml">
+      <configuration name="mongo util test.#initMongoose" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="mongo_util_test_#initMongoose - 2017.09.15 at 15h 34m 17s.xml">
+      <configuration name="mongo util test.#initMongoose" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="mongo_util_test_#initMongoose - 2017.09.15 at 15h 37m 58s.xml">
+      <configuration name="mongo util test.#initMongoose" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2014000" />
+    <option name="totallyTimeSpent" value="9321000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24960506" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24960506" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969216" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32969216" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32969216" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969216" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -261,96 +367,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/api/controllers/auth.controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/api/controllers/user.controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/config/passport.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/config/vars.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/config/mongoose.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/config/env.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="7" lean-forward="false" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/api/middlewares/error.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding>
-            <element signature="e#1#42#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/api/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/config/express.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="2" lean-forward="true" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <element signature="e#33#68#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/api/utils/APIError.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -363,18 +383,180 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/api/validations/user.validation.js">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-227">
-          <caret line="1" column="45" lean-forward="true" selection-start-line="1" selection-start-column="45" selection-end-line="1" selection-end-column="45" />
+        <state relative-caret-position="555">
+          <caret line="37" column="29" lean-forward="false" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jest.config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.babelrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="22" lean-forward="false" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/api/models/question.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#32#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/api/models/choice.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="27" lean-forward="false" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/api/utils/mongo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#40#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/util/mongo.spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/api/controllers/auth.controller.js" />
+    <entry file="file://$PROJECT_DIR$/src/api/controllers/user.controller.js" />
+    <entry file="file://$PROJECT_DIR$/src/config/passport.js" />
+    <entry file="file://$PROJECT_DIR$/src/config/vars.js" />
+    <entry file="file://$PROJECT_DIR$/src/config/mongoose.js" />
+    <entry file="file://$PROJECT_DIR$/src/config/env.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="7" lean-forward="false" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/api/middlewares/error.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/api/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/config/express.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="2" lean-forward="true" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/api/utils/APIError.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="3" lean-forward="false" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/api/validations/auth.validation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="22" lean-forward="false" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/api/validations/user.validation.js" />
+    <entry file="file://$PROJECT_DIR$/src/api/models/user.model.js" />
+    <entry file="file://$PROJECT_DIR$/src/api/models/question.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#32#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/api/models/choice.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="27" lean-forward="false" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.babelrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="22" lean-forward="false" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jest.config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/api/utils/mongo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#40#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="26" column="31" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        <state relative-caret-position="150">
+          <caret line="37" column="29" lean-forward="false" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/util/mongo.spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
