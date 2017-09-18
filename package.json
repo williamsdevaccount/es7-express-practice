@@ -62,10 +62,9 @@
   },
   "devDependencies": {
     "apidoc": "^0.17.5",
+    "babel-core": "^6.26.0",
     "babel-preset-flow": "^6.23.0",
     "babel-preset-node8": "^1.2.0",
-    "chai": "^4.1.0",
-    "chai-as-promised": "^7.1.1",
     "coveralls": "^2.13.1",
     "eslint": "^4.2.0",
     "eslint-config-airbnb-base": "^11.3.2",
@@ -73,12 +72,9 @@
     "husky": "^0.14.3",
     "jest": "^21.1.0",
     "jest-babel": "^1.0.1",
-    "mocha": "^3.5.3",
     "nodemon": "^1.12.1",
     "nyc": "^11.0.3",
     "opn-cli": "^3.1.0",
-    "sinon": "^3.0.0",
-    "sinon-chai": "^2.13.0",
     "supertest": "^3.0.0"
   },
   "license": "MIT"
